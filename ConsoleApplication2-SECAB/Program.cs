@@ -7,23 +7,23 @@ namespace ConsoleApplication2_SECAB
     {
         static void Main(string[] args)
         {
-            //1
+            //A1
             Console.WriteLine("Sweetian");
             Console.WriteLine("e0167326@u.nus.edu");
 
-            //2
+            //A2
             string input = Console.ReadLine();
             Console.WriteLine("Good Morning " + input);
 
-            //3
+            //A3
             string input2 = Console.ReadLine();
 
-            //4
+            //A4
             int num1 = Convert.ToInt32(input2);
             Console.WriteLine(num1 * num1);
             Console.WriteLine(Math.Pow(num1,2));
 
-            //5
+            //A5
             double num2 = Convert.ToInt32(input2);
             Console.WriteLine(Math.Pow(num2, 2));
             Console.WriteLine("{0:0.00}", num2);
